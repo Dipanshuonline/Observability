@@ -3,6 +3,7 @@ package Selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,8 +18,11 @@ public class TestNG {
     @BeforeClass
     public void setUp() {
         // Set up the WebDriver configuration
-        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-        driver = new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "resources/chromedriver_linux");
+    	ChromeOptions options=new ChromeOptions();
+    	options.addArguments("headless");
+    	driver=new ChromeDriver(options);
        wait = new WebDriverWait(driver, 10);
     }
 
