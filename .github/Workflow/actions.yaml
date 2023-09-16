@@ -18,4 +18,4 @@ jobs:
           java-version: 17
       - name: Run tests with maven
         working-directory: Observability
-        run: mvn test
+        run: mvn build

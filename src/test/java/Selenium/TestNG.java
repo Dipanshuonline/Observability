@@ -18,8 +18,8 @@ public class TestNG {
     @BeforeClass
     public void setUp() {
         // Set up the WebDriver configuration
-        //System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-    	System.setProperty("webdriver.chrome.driver", "resources/chromedriver_linux");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
+    	//System.setProperty("webdriver.chrome.driver", "resources/chromedriver_linux");
     	ChromeOptions options=new ChromeOptions();
     	options.addArguments("headless");
     	driver=new ChromeDriver(options);
