@@ -25,7 +25,7 @@ public class TestNG {
 	//ChromeOptions options=new ChromeOptions();
     	//options.addArguments("headless");
     	//driver=new ChromeDriver(options);
-       wait = new WebDriverWait(driver, 10);
+     //  wait = new WebDriverWait(driver, 10);
     }
 
     @Test
@@ -58,7 +58,7 @@ public class TestNG {
     @AfterClass
     public void tearDown() {
         // Close the WebDriver
-        driver.quit();
+     //   driver.quit();
     }
 }
 
