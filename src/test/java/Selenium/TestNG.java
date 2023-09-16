@@ -11,6 +11,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TestNG {
 	public WebDriver driver;
 	public WebDriverWait wait;
@@ -19,7 +21,8 @@ public class TestNG {
     public void setUp() {
         // Set up the WebDriver configuration
        // System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-    	System.setProperty("webdriver.chrome.driver", "resources/chromedriver_linux");
+    	//System.setProperty("webdriver.chrome.driver", "resources/chromedriver_linux");
+    	WebDriverManager.chromedriver().setup();
     	ChromeOptions options=new ChromeOptions();
     	options.addArguments("headless");
     	driver=new ChromeDriver(options);
