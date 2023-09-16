@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-16T14:52:16Z" name="Suite" finished-at="2023-09-16T14:52:39Z" duration-ms="22947">
+    <groups>
+    </groups>
+    <test started-at="2023-09-16T14:52:16Z" name="Test" finished-at="2023-09-16T14:52:39Z" duration-ms="22947">
+      <class name="Selenium.TestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T14:52:16Z" name="setUp" finished-at="2023-09-16T14:52:18Z" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="T1_Launch()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T14:52:18Z" name="T1_Launch" finished-at="2023-09-16T14:52:27Z" duration-ms="8643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1_Launch -->
+        <test-method signature="T2_Login()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T14:52:27Z" name="T2_Login" finished-at="2023-09-16T14:52:30Z" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T2_Login -->
+        <test-method signature="T3_LandingPage()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T14:52:30Z" name="T3_LandingPage" finished-at="2023-09-16T14:52:33Z" duration-ms="3013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T3_LandingPage -->
+        <test-method signature="T4_MainTransaction()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T14:52:33Z" name="T4_MainTransaction" finished-at="2023-09-16T14:52:36Z" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T4_MainTransaction -->
+        <test-method signature="T5_Logout()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T14:52:36Z" name="T5_Logout" finished-at="2023-09-16T14:52:39Z" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T5_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T14:52:39Z" name="tearDown" finished-at="2023-09-16T14:52:39Z" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
