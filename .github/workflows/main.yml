@@ -17,4 +17,4 @@ jobs:
           distribution: 'zulu'
           java-version: 17
       - name: Run tests with maven
-        run: mvn build
+        run: mvn test
