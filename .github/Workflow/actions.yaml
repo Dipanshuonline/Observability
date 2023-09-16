@@ -3,7 +3,7 @@ name: on_push
 on:
   push:
     branches:
-      - "main" # This will run on all branches, and must be quoted to be handled by yaml
+      - "**" # This will run on all branches, and must be quoted to be handled by yaml
 
 jobs:
 
@@ -18,4 +18,4 @@ jobs:
           java-version: 17
       - name: Run tests with maven
         working-directory: Observability
-        run: mvn build
+        run: mvn test
