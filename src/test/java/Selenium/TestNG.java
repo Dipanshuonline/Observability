@@ -20,11 +20,11 @@ public class TestNG {
 
     @BeforeClass
     public void setUp() {
-    	WebDriverManager.chromedriver().setup();
-    	ChromeOptions options=new ChromeOptions();
-    	options.addArguments("headless");
-    	driver=new ChromeDriver(options);
-       wait = new WebDriverWait(driver, 10);
+ //   	WebDriverManager.chromedriver().setup();
+  //  	ChromeOptions options=new ChromeOptions();
+   // 	options.addArguments("headless");
+   // 	driver=new ChromeDriver(options);
+   //    wait = new WebDriverWait(driver, 10);
     }
 
     @Test
