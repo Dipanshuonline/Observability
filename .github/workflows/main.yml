@@ -25,4 +25,5 @@ jobs:
         run: |
           echo "Total_Duration=$(expr $(date +%s) - ${START_TIME})"
           ./Resources/moreData.sh
+
           
