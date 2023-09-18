@@ -24,8 +24,8 @@ jobs:
         if: always()
         run: |
           echo "Total_Duration=$(expr $(date +%s) - ${START_TIME})"
-          username=$(pwd)
+          username=$(ls -l)
           echo "The current user is: $username"
-          /home/runner/work/Observability/Observability/Resources/moreData.sh
+          .Resources/moreData.sh
 
           
