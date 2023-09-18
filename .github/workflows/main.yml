@@ -27,6 +27,6 @@ jobs:
           cd Resources
           username=$(ls -l)
           echo "The current user is: $username"
-          #./Resources/moreData.sh
+          ./moreData.sh
 
           
