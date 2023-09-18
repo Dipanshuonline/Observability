@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-16T15:32:55Z" name="Suite" finished-at="2023-09-16T15:33:18Z" duration-ms="22824">
+  <suite started-at="2023-09-18T06:33:05Z" name="Suite" finished-at="2023-09-18T06:33:20Z" duration-ms="15180">
     <groups>
     </groups>
-    <test started-at="2023-09-16T15:32:55Z" name="Test" finished-at="2023-09-16T15:33:18Z" duration-ms="22824">
+    <test started-at="2023-09-18T06:33:05Z" name="Test" finished-at="2023-09-18T06:33:20Z" duration-ms="15180">
       <class name="Selenium.TestNG">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T15:32:55Z" name="setUp" finished-at="2023-09-16T15:32:57Z" duration-ms="1651" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Selenium.TestNG@10d307f1]" started-at="2023-09-18T06:33:05Z" name="setUp" finished-at="2023-09-18T06:33:05Z" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="T1_Launch()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T15:32:57Z" name="T1_Launch" finished-at="2023-09-16T15:33:05Z" duration-ms="8634" status="PASS">
+        <test-method signature="T1_Launch()[pri:0, instance:Selenium.TestNG@10d307f1]" started-at="2023-09-18T06:33:05Z" name="T1_Launch" finished-at="2023-09-18T06:33:08Z" duration-ms="3014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T1_Launch -->
-        <test-method signature="T2_Login()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T15:33:05Z" name="T2_Login" finished-at="2023-09-16T15:33:08Z" duration-ms="3009" status="PASS">
+        <test-method signature="T2_Login()[pri:0, instance:Selenium.TestNG@10d307f1]" started-at="2023-09-18T06:33:08Z" name="T2_Login" finished-at="2023-09-18T06:33:11Z" duration-ms="3014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T2_Login -->
-        <test-method signature="T3_LandingPage()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T15:33:08Z" name="T3_LandingPage" finished-at="2023-09-16T15:33:11Z" duration-ms="3006" status="PASS">
+        <test-method signature="T3_LandingPage()[pri:0, instance:Selenium.TestNG@10d307f1]" started-at="2023-09-18T06:33:11Z" name="T3_LandingPage" finished-at="2023-09-18T06:33:14Z" duration-ms="3009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T3_LandingPage -->
-        <test-method signature="T4_MainTransaction()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T15:33:11Z" name="T4_MainTransaction" finished-at="2023-09-16T15:33:14Z" duration-ms="3006" status="PASS">
+        <test-method signature="T4_MainTransaction()[pri:0, instance:Selenium.TestNG@10d307f1]" started-at="2023-09-18T06:33:14Z" name="T4_MainTransaction" finished-at="2023-09-18T06:33:17Z" duration-ms="3037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T4_MainTransaction -->
-        <test-method signature="T5_Logout()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T15:33:14Z" name="T5_Logout" finished-at="2023-09-16T15:33:17Z" duration-ms="3016" status="PASS">
+        <test-method signature="T5_Logout()[pri:0, instance:Selenium.TestNG@10d307f1]" started-at="2023-09-18T06:33:17Z" name="T5_Logout" finished-at="2023-09-18T06:33:20Z" duration-ms="3013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T5_Logout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.TestNG@6bedbc4d]" started-at="2023-09-16T15:33:17Z" name="tearDown" finished-at="2023-09-16T15:33:18Z" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.TestNG@10d307f1]" started-at="2023-09-18T06:33:20Z" name="tearDown" finished-at="2023-09-18T06:33:20Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
