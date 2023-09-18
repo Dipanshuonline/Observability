@@ -24,8 +24,9 @@ jobs:
         if: always()
         run: |
           echo "Total_Duration=$(expr $(date +%s) - ${START_TIME})"
+          cd Resources
           username=$(ls -l)
           echo "The current user is: $username"
-          .Resources/moreData.sh
+          #./Resources/moreData.sh
 
           
