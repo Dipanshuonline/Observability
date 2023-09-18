@@ -26,6 +26,6 @@ jobs:
           echo "Total_Duration=$(expr $(date +%s) - ${START_TIME})"
           username=$(pwd)
           echo "The current user is: $username"
-          sudo ./Resources/moreData.sh
+          Resources/moreData.sh
 
           
