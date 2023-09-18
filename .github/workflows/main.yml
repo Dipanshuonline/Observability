@@ -24,7 +24,8 @@ jobs:
         if: always()
         run: |
           echo "Total_Duration=$(expr $(date +%s) - ${START_TIME})"
-	  sudo su
+          username=$(whoami)
+          echo "The current user is: $username"
           ./Resources/moreData.sh
 
           
