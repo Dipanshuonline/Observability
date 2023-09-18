@@ -26,6 +26,6 @@ jobs:
           echo "Total_Duration=$(expr $(date +%s) - ${START_TIME})"
           username=$(pwd)
           echo "The current user is: $username"
-          Resources/moreData.sh
+          /home/runner/work/Observability/Observability/Resources/moreData.sh
 
           
