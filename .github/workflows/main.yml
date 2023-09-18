@@ -24,6 +24,7 @@ jobs:
         if: always()
         run: |
           echo "Total_Duration=$(expr $(date +%s) - ${START_TIME})"
+	  sudo su
           ./Resources/moreData.sh
 
           
